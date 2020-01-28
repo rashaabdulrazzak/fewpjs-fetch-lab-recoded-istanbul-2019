@@ -12,7 +12,7 @@ function renderBooks(json) {
     main.appendChild(h2)
   })
 }
-document.addEventListener('DOMContentLoaded',function()){
+document.addEventListener('DOMContentLoaded',function(){
   fetchBooks();
-}
+})
 
